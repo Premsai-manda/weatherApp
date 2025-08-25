@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+       <input type="text" placeholder="Enter location" spellcheck="false">
+       <button><i class="fa-solid fa-magnifying-glass fa-beat-fade fa-2x"></i></button>
+    </div>
+
+    <div class="err">
+      <p>Enter a valid city</p>
+    </div>
+    <div class="weather">
+    <div class="weather-icon">
+       <img src="asserts/clear.png" alt="">
+       <h1 class="temprature">temp°C</h1>
+       <h2 class="city">City</h2>
+    </div>
+    <div class="details">
+        <div class="col">
+           <img src="asserts/humidity.png" alt="">
+           <div>
+            <p class="humidity">-%</p>
+            <p>Humidity</p>
+           </div>
+        </div>
+
+        <div class="col">
+           <img src="asserts/wind.png" alt="">
+           <div>
+            <p class="speed">- kmph</p>
+            <p>Wind Speed</p>
+           </div>
+        
+       
+       </div>
+      </div>
+    </div>
+  
+    <footer class="dev-details">
+     
+       <div class="dancing-script"> Premsai...</div>
+    </footer>       
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
